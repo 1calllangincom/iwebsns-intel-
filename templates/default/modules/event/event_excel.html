@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<base href='{echo:$siteDomain;/}' />
+<link rel="stylesheet" type="text/css" href="skin/default/jooyea/css/iframe.css">
+</head>
+<body id="iframecontent">
+<div class="create_button"><a href="modules.php?app=event_info">{echo:lp{ef_launch_activity};/}</a></div>
+<h2 class="app_event">{echo:lp{ef_activity};/}</h2>
+<div class="tabs">
+  <ul class="menu">
+    <li><a href="modules.php?app=event_info&event_id={echo:$event_id;/}" hidefocus="true">{echo:lp{ef_update_activity};/}</a></li>
+    <li ><a href="modules.php?app=event_member_manager&event_id={echo:$event_id;/}" hidefocus="true">{echo:lp{ef_member_management};/}</a></li>
+	<li><a href="modules.php?app=event_upload_photo&event_id={echo:$event_id;/}" hidefocus="true">{echo:lp{ef_upload_photo};/}</a></li>
+<li  ><a href="modules.php?app=event_messages&event_id={echo:$event_id;/}" hidefocus="true">{echo:lp{ef_event_messages};/}</a></li>
+    		<li class="active" ><a href="modules.php?app=event_excel&event_id={echo:$event_id;/}" >{echo:lp{ef_event_table};/}</a></li>
+    		
+  </ul>
+</div>
+
+<div class="rs_head">{echo:lp{ef_excel};/}</div>
+<table class="msg_inbox" cellspacing="1" cellpadding="1">
+	<thead>
+		<tr>
+			<td width="15%">{echo:lp{ef_category};/}</td>
+			<td width="13%"></td>
+			<td>{echo:lp{ef_data};/}</td>
+			<td>{echo:lp{ef_score};/}</td>
+			<td>{echo:lp{ef_weight};/}</td>
+			<td>{echo:lp{ef_final_score};/}</td>
+			<td>{echo:lp{ef_comment};/}</td>
+		</tr>
+  </thead>
+
+    <tr>
+    	<td>{echo:lp{ef_safety};/}</td>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+    	<td>{echo:lp{ef_c_safety};/}</td>
+    </tr>
+
+    <tr>
+    	<td>{echo:lp{ef_coc};/}</td>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+    	<td>{echo:lp{ef_c_safety};/}</td>
+    </tr>
+    
+    <tr>
+    	<td>{echo:lp{ef_attend};/}</td>
+    	<td></td>
+    	<td>{echo:$attend_per;/}%</td>
+    	<td></td>
+    	<td>0.3</td>
+    	<td></td>
+    	<td></td>
+    </tr>
+    
+    <tr>
+    	<td>{echo:lp{ef_trend};/}</td>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+    	<td>0.2</td>
+    	<td></td>
+    	<td></td>
+    </tr>
+    
+    <tr>
+    	<td>{echo:lp{ef_cost};/}</td>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+    	<td>0.2</td>
+    	<td></td>
+    	<td>{echo:lp{ef_c_cost};/}</td>
+    </tr>
+    
+    <tr>
+    	<td>{echo:lp{ef_diversity};/}</td>
+    	<td>{echo:lp{ef_gender};/}</td>
+    	<td>{echo:$gender_man;/}：{echo:$attend-$gender_man;/}</td>
+    	<td></td>
+    	<td>0.1</td>
+    	<td></td>
+    	<td>{echo:lp{ef_c_gender};/}</td>
+    </tr>
+    
+    <tr>
+   		<td></td>
+    	<td>{echo:lp{ef_department};/}</td>
+    	<td></td>
+    	<td></td>
+    	<td>0.1</td>
+    	<td></td>
+    	<td>{echo:lp{ef_c_department};/}</td>
+    </tr>
+    
+    <tr>
+    	<td></td>
+    	<td>{echo:lp{ef_factory};/}</td>
+    	<td></td>
+    	<td></td>
+    	<td>0.1</td>
+    	<td></td>
+    	<td>{echo:lp{ef_c_factory};/}</td>
+    </tr>
+    <tr>
+    	<td>{echo:lp{ef_sc};/}</td>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+    	<td>{echo:lp{ef_c_sc};/}</td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/event
+END
+event_info.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/event/event_info.html
+END
+event_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/event/event_list.html
+END
+event_space.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/event/event_space.html
+END
+event_update_photo.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/event/event_update_photo.html
+END
+event_upload_photo.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/event/event_upload_photo.html
+END
+event_invite.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/event/event_invite.html
+END
+event_search_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/event/event_search_list.html
+END
+event_member_manager.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/event/event_member_manager.html
+END
+event_list_photo.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/event/event_list_photo.html
+END
+event_search.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/event/event_search.html
+END
+event_member.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/event/event_member.html
+END
+event_mine.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/event/event_mine.html
+END
+event_show_photo.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/event/event_show_photo.html
+END

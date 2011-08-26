@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>俱乐部报销管理系统</title>
+<base href='{echo:$siteDomain;/}' />
+<!--<link rel="stylesheet" type="text/css" href="skin/default/jooyea/css/iframe.css">-->
+<script type="text/javascript">
+        function s() {
+            var options=document.getElementById("budget_year");
+            for (var i = 0; i < options.length; i++) {
+                if (options[i].selected) {
+                   window.location.href=options[i].value;
+                }
+            }
+        }
+    </script>
+</head>
+<body id="iframecontent">{sta:if(is_admin($user_id)=='Y')[exc]}
+    <div class="create_button"><a href="main.php?app=group">{echo:lp{g_return};/}</a></div>
+    <h2 class="app_group">{echo:lp{g_manage};/}</h2>
+    <div class="tabs">
+        <ul class="menu">
+                        <li  ><a href="modules.php?app=group_budget&group_id={echo:$group_id;/}" title="{echo:lp{g_budget_k};/}">{echo:lp{g_budget_k};/}</a></li>
+                        <li class="active"><a href="modules.php?app=group_budget_manager&group_id={echo:$group_id;/}" title="{echo:lp{g_budget};/}">{echo:lp{g_budget_manager};/}</a></li>
+        </ul>
+    </div>
+	
+<table class='form_table '>		
+			<tr>
+			<td><table><tr><td>{echo:lp{g_budget_view};/}：</td>
+			<td>
+				<select id="budget_year" onchange="s()">
+					<option selected="selected"></option>
+					<option value="modules.php?app=group_budget_manager&group_id={echo:$group_id;/}&mod=2009">2009</option>
+					<option value="modules.php?app=group_budget_manager&group_id={echo:$group_id;/}&mod=2010">2010</option>
+					<option value="modules.php?app=group_budget_manager&group_id={echo:$group_id;/}&mod=2011" >2011</option>
+					<option value="modules.php?app=group_budget_manager&group_id={echo:$group_id;/}&mod=2012">2012</option>	
+				</select>
+			</td>
+			<td>{echo:lp{g_budget_reimbursement};/}：</td>
+			<td><input type="button" value=" {echo:lp{g_budget_list};/} " name="budget_list" onclick="window.location.href='modules.php?app=group_budget_manager&group_id={echo:$group_id;/}&mod=1';"></input>
+			    <input type="button" value=" {echo:lp{g_budget_unaprove};/} " name="reimbursement" onclick="window.location.href='modules.php?app=group_budget_manager&group_id={echo:$group_id;/}&mod=2';"></input>
+			    <input type="button" value=" {echo:lp{g_forcast_unaprove};/} " name="reimbursement" onclick="window.location.href='modules.php?app=group_budget_manager&group_id={echo:$group_id;/}&mod=4';"></input>
+			    <input type="button" value=" {echo:lp{g_forcast_year_forcast};/} " name="reimbursement" onclick="window.location.href='modules.php?app=group_budget_manager&group_id={echo:$group_id;/}&mod=5';"></input>
+			    <input type="button" value=" {echo:lp{g_budget_deleted};/} " name="reimbursement" onclick="window.location.href='modules.php?app=group_budget_manager&group_id={echo:$group_id;/}&mod=3';"></input>
+			    <input type="button" value=" {echo:lp{g_table};/} " name="reimbursement" onclick="window.location.href='modules.php?app=group_budget_manager&group_id={echo:$group_id;/}&mod=6';"></input>
+			    
+			   
+			    </td>
+			    </tr></table></td></tr>
+			     {sta:if($mod==6)[exc]}
+			     <tr>项目开销表：</tr>
+			     <table width="100%" border="1" cellpadding="5" cellspacing="0">
+			     <tr><td>Club</td>{sta:foreach($item_rs as $item_row)[loop]}<td>{echo:itemidtoname($item_row['id']);/}</td>{end:foreach/}</tr>
+			     {sta:foreach($table_all as $k1=>$table_row)[loop]}<tr><td>{sta:if(groupidtoname($k1)=='')[exc]}<font size="5">Total</font>{end:if/}{echo:groupidtoname($k1);/}</td>{sta:foreach($number_arr as $r1)[loop]}<td>{echo:isset($table_row[$r1])?($table_row[$r1]):0;/}</td>{end:foreach/}</tr>{end:foreach/}
+			     </table>
+			    	{end:if/}
+			    {sta:if($mod==5)[exc]}
+			    <tr><td>
+			    <form action="do.php?act=group_forcast_year" method="post">
+			    <table  border="1" cellpadding="5" cellspacing="0">
+					<tr><td>Club Name</td><td>Allocate</td><td colspan="2">Q1</td><td colspan="2">Q2</td><td colspan="2">Q3</td><td colspan="2">Q4</td><td colspan="4"></td></tr>
+					<tr><td></td><td></td><td>Forecast</td><td>Actual</td><td>Forecast</td><td>Actual</td><td>Forecast</td><td>Actual</td><td>Forecast</td><td>Actual</td><td>Total Foreacst</td><td>Total Actual</td><td>Forecast Rest</td><td>Unapproved Forecast</td></tr>
+					{sta:foreach($forcast_sum as $key=>$value1)[loop]}
+					{sta:if(groupidtoname($key)!='')[exc]}
+					<tr>
+					
+					<td>{echo:groupidtoname($key);/}</td><td><input name="allocate[{echo:$key;/}]" value="{echo:$value1[10];/}"></input></td><td>{echo:$value1[0];/}</td><td>{echo:$value1[4];/}</td><td>{echo:$value1[1];/}</td><td>{echo:$value1[5];/}</td><td>{echo:$value1[2];/}</td><td>{echo:$value1[6];/}</td><td>{echo:$value1[3];/}</td><td>{echo:$value1[7];/}</td><td>{echo:$value1[8];/}</td><td>{echo:$value1[9];/}</td><td>{echo:$value1[10]-$value1[8];/}</td><td>{echo:$value1[11];/}</td>
+					
+					</tr>
+					{end:if/}
+					{end:foreach/}
+					<tr><td colspan="2">年份：<input name="year_forcast" readonly="readonly" value="{echo:$year;/}"></input></td><td><input type="submit" value="submit"></input></td><td></td></tr>
+					</table></form>
+			    </td></tr>
+			    
+			    
+			    
+			    
+			    	{end:if/}
+			    {sta:if($mod!=5&&$mod!=6)[exc]}
+			
+				<tr><td><form action="modules.php?app=group_budget_search" method="post">
+				<table border="1" cellpadding="5" cellspacing="0">
+				<table border="1" cellpadding="5" cellspacing="0">
+				<tr>
+				<td colspan="9"><font size="5">搜索：</font></td></tr><tr>
+				
+				<td>类别：<select name="kind"><option value="1">spending</option><option value="2">forecast</option></select></td>
+				<td>ID:<input  style="width:50px" name="ID"></input></td>
+				<td>俱乐部：<select name="group"><option value="0">all</option>{sta:foreach($group_list as $group_row)[loop]}<option value="{echo:$group_row['group_id'];/}">{echo:groupidtoname($group_row['group_id']);/}</option>{end:foreach/}</select></td>
+				<td>项目：<select name="item"><option value="0">all</option>{sta:foreach($item_rs as $item_row)[loop]} <option value="{echo:$item_row['id'];/}">{echo:$item_row['item'];/}{end:foreach/}</select></td>
+				<td>提交人：<input style="width:90px" name="requester"></input></td>
+				<td>年份：<select name="year"><option value="0">all</option>{sta:foreach($year_list as $year_row)[loop]} <option value="{echo:$year_row;/}">{echo:$year_row;/}</option>    {end:foreach/}</select></td>
+				<td>季度：<select name="quarter"><option value="0">all</option><option value="1">Q1</option><option value="2">Q2</option><option value="3">Q3</option><option value="4">Q4</option></select></td>
+				<td>状态：<select name="status"><option value="0">all</option><option value="1">approved</option><option value="2">wait</option><option value="3">return</option></select></td>
+				<td><input type="submit" value="Go"></input></td>
+				</tr>
+				
+				</table></form>
+				</td></tr>
+				<tr>
+				<td>{echo:$year;/}年总表：</td>	
+			</tr>
+				<tr>
+				<td>
+					<table  border="1" cellpadding="5" cellspacing="0" bgcolor="#F5F5DC">
+					<tr><td>Club Name</td><td>Allocate</td><td colspan="2">Q1</td><td colspan="2">Q2</td><td colspan="2">Q3</td><td colspan="2">Q4</td><td colspan="4"></td></tr>
+					<tr><td></td><td></td><td>Forecast</td><td>Actual</td><td>Forecast</td><td>Actual</td><td>Forecast</td><td>Actual</td><td>Forecast</td><td>Actual</td><td>Total Foreacst</td><td>Total Actual</td><td>Forecast Rest</td><td>Unapproved Forecast</td></tr>
+					{sta:foreach($forcast_sum as $key=>$value1)[loop]}
+					{sta:if(groupidtoname($key)!='')[exc]}
+					<tr>
+					
+					<td>{echo:groupidtoname($key);/}</td><td>{echo:$value1[10];/}</td><td>{echo:$value1[0];/}</td><td>{echo:$value1[4];/}</td><td>{echo:$value1[1];/}</td><td>{echo:$value1[5];/}</td><td>{echo:$value1[2];/}</td><td>{echo:$value1[6];/}</td><td>{echo:$value1[3];/}</td><td>{echo:$value1[7];/}</td><td>{echo:$value1[8];/}</td><td>{echo:$value1[9];/}</td><td>{echo:$value1[10]-$value1[8];/}</td><td>{echo:$value1[11];/}</td>
+					
+					</tr>
+					{end:if/}
+					{end:foreach/}
+					</table>
+				</td></tr>
+				{end:if/}
+				{sta:if($mod==1)[exc]}
+				<tr><td>最近季度预算列表：</td></tr>
+			<tr><td>
+			<table border="1" cellpadding="5" cellspacing="0" bgcolor="#CCCC99">
+			<tr>
+			<td>
+			Forecast ID</td>
+			<td>Club Name</td>
+			<td>Requester</td>
+			<td>Year</td>
+			<td>Quarter</td>
+			<td>Item</td>
+			<td>Amount</td>
+			<td>Description</td>
+			<td>Submitted Time</td>
+			<td>Status</td>
+			<td>Operate/Approver</td>
+			</tr>
+			{sta:foreach($forcast_list as $row)[loop]}
+			<tr>
+			<td>{echo:$row['forcast_id'];/}</td>
+			<td>{echo:groupidtoname($row['group_id']);/}</td>
+			<td>{echo:useridtoname($row['user_id']);/}</td>
+			<td>{echo:$row['year'];/}</td>
+			<td>{echo:$row['quarter'];/}</td>
+			<td>{echo:itemidtoname($row['item_id']);/}</td>
+			<td>{echo:$row['amount'];/}</td>
+			<td>{echo:$row['comments'];/}</td>
+			<td>{echo:$row['time'];/}</td>
+			<td>{echo:statustoname($row['status']);/}</td>
+			<td>{sta:if($row['status']==2)[exc]}<form action="do.php?act=group_forcast_approve" method="post"><input type="hidden" name="group_id" value="{echo:$row['group_id'];/}"></input><input type="hidden" name="forcast_id" value="{echo:$row['forcast_id'];/}"></input><input type="submit" value="Approve"></input></form>
+					<form action="do.php?act=group_forcast_disapprove" method="post"><input type="hidden" name="group_id" value="{echo:$row['group_id'];/}"></input><input type="hidden" name="forcast_id" value="{echo:$row['forcast_id'];/}"></input><input type="submit" value="Refuse"></input><textarea name="approver_comments">Reasons for refusal:</textarea></form>
+					{end:if/}
+					{sta:if($row['status']!=2)[exc]}{echo:useridtoname(intval($row['approver']));/}{end:if/}</td>
+			</tr>
+			{end:foreach/}
+			</table></td></tr>
+				<tr><td>最近所有俱乐部报销列表：</td></tr>
+			<tr> 
+			<td colspan="4" >
+				<table width="100%" border="1" cellpadding="5" cellspacing="0" bgcolor="#EEE8AA">
+				<tr><td>Forecast ID</td>
+				<td>Spending ID</td>
+				<td>Date</td>
+					<td>Club</td>
+					<td>Forecast Amount</td>
+					
+					<td>Requester</td>
+					<td>WWID</td>
+					<td>Office/Shift</td>
+					<td>Item</td>
+					<td>Description</td>
+					<td>Comments</td>
+					<td>Unit Price</td>
+					<td>Quality</td>
+					<td>Amount</td>
+					
+					<td>Amount Rest</td>
+					<td>Operate/Approver</td>
+					
+					<td>Statue</td>
+					</tr>
+					
+					{sta:foreach($budget_rs as $row)[loop]}
+					<tr>
+					<td>{echo:$row['forcast_id'];/}</td>
+					<td>{echo:$row['budget_id'];/}</td>
+					<td>{echo:$row['yearB'];/}-Q{echo:$row['quarterB'];/}</td>
+						<td>{echo:groupidtoname($row['group_id']);/}</td>
+						<td>{echo:$row['forecast'];/}</td>
+						
+					<td>{echo:useridtoname($row['user_id']);/}</td>
+					<td>{echo:useridtowwid($row['user_id']);/}</td>
+					<td>{echo:$row['kind'];/}</td>
+					<td>{echo:itemidtoname($row['item_id']);/}</td>
+					<td>{echo:$row['forcast_comments'];/}</td>
+					<td>{echo:$row['description'];/}</td>
+					
+					<td>{echo:$row['unit_price'];/}</td>
+					<td>{echo:$row['quality'];/}</td>
+					<td>{echo:$row['amount'];/}</td>
+					
+					<td>{sta:if($row['status']!=3)[exc]}{echo:$row['forecast']-$budget_forcast[$row['forcast_id']];/}{end:if/}</td>
+					<td>{sta:if($row['status']==2)[exc]}<form action="do.php?act=group_budget_approve" method="post"><input type="hidden" name="group_id" value="{echo:$row['group_id'];/}"></input><input type="hidden" name="budget_id" value="{echo:$row['budget_id'];/}"></input><input type="submit" value="Approve"></input></form>
+					<form action="do.php?act=group_budget_disapprove" method="post"><input type="hidden" name="group_id" value="{echo:$row['group_id'];/}"></input><input type="hidden" name="budget_id" value="{echo:$row['budget_id'];/}"></input><input type="submit" value="Refuse"></input><textarea name="approver_comments">Reasons for refusal:</textarea></form>
+					{end:if/}
+					{sta:if($row['status']!=2)[exc]}{echo:useridtoname(intval($row['approver']));/}{end:if/}
+					</td>
+					
+					<td>{echo:statustoname($row['status']);/}</td></tr>
+					  {end:foreach/}
+				</table>
+			</td>
+			</tr>
+			
+			{end:if/}
+			{sta:if($mod==2)[exc]}
+			<tr><td>所有未审批报销列表：</td></tr>
+			<tr>
+			<td>
+			<table border="1" cellpadding="5" cellspacing="0">
+				<tr><td>Forecast ID</td>
+				<td>Forecast</td>
+					<td>Club</td>
+					<td>Forecast Amount</td>
+					<td>Requester</td>
+					<td>WWID</td>
+					<td>Office/Shift</td>
+					<td>Item</td>
+					<td>Description</td>
+					<td>Comments</td>
+					<td>Unit Price</td>
+					<td>Quality</td>
+					<td>Amount</td>
+					<td>Statue</td>
+					<td>Operate</td>
+					<td>Amount Rest</td></tr>
+					
+					{sta:foreach($budget_un_rs as $row)[loop]}
+					<tr>
+					<td>{echo:$row['forcast_id'];/}</td>
+					<td>{echo:$row['yearB'];/}-Q{echo:$row['quarterB'];/}</td>
+						<td>{echo:groupidtoname($row['group_id']);/}</td>
+					
+						<td>{echo:$row['forecast'];/}</td>
+					<td>{echo:useridtoname($row['user_id']);/}</td>
+					<td>{echo:useridtowwid($row['user_id']);/}</td>
+					<td>{echo:$row['kind'];/}</td>
+					<td>{echo:itemidtoname($row['item_id']);/}</td>
+					<td>{echo:$row['forcast_comments'];/}</td>
+					<td>{echo:$row['description'];/}</td>
+					<td>{echo:$row['unit_price'];/}</td>
+					<td>{echo:$row['quality'];/}</td>
+					<td>{echo:$row['amount'];/}</td>
+					<td>{echo:statustoname($row['status']);/}</td>
+					<td>{sta:if($row['status']==2)[exc]}<form action="do.php?act=group_budget_approve" method="post"><input type="hidden" name="group_id" value="{echo:$row['group_id'];/}"></input><input type="hidden" name="budget_id" value="{echo:$row['budget_id'];/}"></input><input type="submit" value="Approve"></input></form>
+					<form action="do.php?act=group_budget_disapprove" method="post"><input type="hidden" name="group_id" value="{echo:$row['group_id'];/}"></input><input type="hidden" name="budget_id" value="{echo:$row['budget_id'];/}"></input><input type="submit" value="Refuse"></input><textarea name="approver_comments">Reasons for refusal:</textarea></form>
+					{end:if/}
+					</td>
+					<td>{echo:$row['forecast']-$budget_forcast[$row['forcast_id']];/}</td>
+					</tr>
+					  {end:foreach/}
+				</table>
+				</td></tr>
+			{end:if/}
+			{sta:if($mod==3)[exc]}
+			<tr><td>所有已退回报销列表：</td></tr>
+			<tr>
+			<td>
+			<table width="100%" border="1" cellpadding="5" cellspacing="0">
+				<tr><td>Forecast ID</td>
+				<td>Forecast</td>
+					<td>Club</td>
+					<td>Forecast Amount</td>
+					<td>Requester</td>
+					<td>WWID</td>
+					<td>Office/Shift</td>
+					<td>Item</td>
+					<td>Description</td>
+					<td>Comments</td>
+					<td>Unit Price</td>
+					<td>Quality</td>
+					<td>Amount</td>
+					<td>Statue</td>
+					<td>Approver</td>
+					</tr>
+					
+					{sta:foreach($budget_un_rs as $row)[loop]}
+					<tr>
+					<td>{echo:$row['forcast_id'];/}</td>
+					<td>{echo:$row['yearB'];/}-Q{echo:$row['quarterB'];/}</td>
+						<td>{echo:groupidtoname($row['group_id']);/}</td>
+					
+						<td>{echo:$row['forecast'];/}</td>
+					<td>{echo:useridtoname($row['user_id']);/}</td>
+					<td>{echo:useridtowwid($row['user_id']);/}</td>
+					<td>{echo:$row['kind'];/}</td>
+					<td>{echo:itemidtoname($row['item_id']);/}</td>
+					<td>{echo:$row['forcast_comments'];/}</td>
+					<td>{echo:$row['description'];/}</td>
+					<td>{echo:$row['unit_price'];/}</td>
+					<td>{echo:$row['quality'];/}</td>
+					<td>{echo:$row['amount'];/}</td>
+					<td>{echo:statustoname($row['status']);/}</td>
+					<td>{echo:useridtoname(intval($row['approver']));/}
+					</td>
+					</tr>
+					  {end:foreach/}
+				</table>
+				</td></tr>
+			{end:if/}
+			{sta:if($mod==4)[exc]}
+			<tr><td>未审批季度预算列表：</td></tr>
+			<tr><td>
+			<table border="1" cellpadding="5" cellspacing="0">
+			<tr>
+			<td>
+			Forecast ID</td>
+			<td>Club Name</td>
+			<td>Requester</td>
+			<td>Year</td>
+			<td>Quarter</td>
+			<td>Item</td>
+			<td>Amount</td>
+			<td>Comment</td>
+			<td>Submitted Time</td>
+			<td>Status</td>
+			<td>Operate/Approver</td>
+			</tr>
+			{sta:foreach($forcast_un_list as $row)[loop]}
+			<tr>
+			<td>{echo:$row['forcast_id'];/}</td>
+			<td>{echo:groupidtoname($row['group_id']);/}</td>
+			<td>{echo:useridtoname($row['user_id']);/}</td>
+			<td>{echo:$row['year'];/}</td>
+			<td>{echo:$row['quarter'];/}</td>
+			<td>{echo:itemidtoname($row['item_id']);/}</td>
+			<td>{echo:$row['amount'];/}</td>
+			<td>{echo:$row['comments'];/}</td>
+			<td>{echo:$row['time'];/}</td>
+			<td>{echo:statustoname($row['status']);/}</td>
+			<td>{sta:if($row['status']==2)[exc]}<form action="do.php?act=group_forcast_approve" method="post"><input type="hidden" name="group_id" value="{echo:$row['group_id'];/}"></input><input type="hidden" name="forcast_id" value="{echo:$row['forcast_id'];/}"></input><input type="submit" value="Approve"></input></form>
+					<form action="do.php?act=group_forcast_disapprove" method="post"><input type="hidden" name="group_id" value="{echo:$row['group_id'];/}"></input><input type="hidden" name="forcast_id" value="{echo:$row['forcast_id'];/}"></input><input type="submit" value="Refuse"></input><textarea name="approver_comments">Reasons for refusal:</textarea></form>
+					{end:if/}
+					{sta:if($row['status']!=2)[exc]}{echo:useridtoname(intval($row['approver']));/}{end:if/}</td>
+			</tr>
+			{end:foreach/}
+			</table></td></tr>
+			{end:if/}
+</table>
+{end:if/}
+</body>
+</html>

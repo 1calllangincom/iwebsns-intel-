@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/social_club/!svn/ver/3/default/iwebsns/action/group
+END
+group_del_request_member.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/social_club/!svn/ver/3/default/iwebsns/action/group/group_del_request_member.action.php
+END
+group_del_subject.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/social_club/!svn/ver/3/default/iwebsns/action/group/group_del_subject.action.php
+END
+group_drop.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/social_club/!svn/ver/3/default/iwebsns/action/group/group_drop.action.php
+END
+group_send_subject.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/social_club/!svn/ver/3/default/iwebsns/action/group/group_send_subject.action.php
+END
+group_exit.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/social_club/!svn/ver/3/default/iwebsns/action/group/group_exit.action.php
+END
+group_appoint.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/default/iwebsns/action/group/group_appoint.action.php
+END
+group_revoke.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/social_club/!svn/ver/3/default/iwebsns/action/group/group_revoke.action.php
+END
+group_approve.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/default/iwebsns/action/group/group_approve.action.php
+END
+group_creat.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/social_club/!svn/ver/3/default/iwebsns/action/group/group_creat.action.php
+END
+group_join.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/social_club/!svn/ver/3/default/iwebsns/action/group/group_join.action.php
+END
+group_del_memeber.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/social_club/!svn/ver/3/default/iwebsns/action/group/group_del_memeber.action.php
+END
+group_info_change.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/social_club/!svn/ver/3/default/iwebsns/action/group/group_info_change.action.php
+END

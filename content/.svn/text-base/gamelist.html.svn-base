@@ -1,0 +1,24 @@
+<!-- hi IE,please go to Quirks Mode-->
+<!DOCTYPE html PUBLIC "-//W3C//Dtd XHTML 1.0 Strict//EN" "http://www.w3.org/tr/xhtml1/Dtd/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>story list</title>
+<link rel="stylesheet" type="text/css" href="../images/pages.css" />
+</head>
+<body>
+        	<h1 class="h1A">Game List</h1>
+            <div class="content cc">
+            <p>1. <a href="games/俄罗斯方块.html">俄罗斯方块</a></p>
+		  <p>2. <a href="games/勇闯迷宫.html">勇闯迷宫</a></p>
+		  <p>3. <a href="games/underconstruction.htm">game-3(underconstruction)</a></p>
+		  <p>4. <a href="games/underconstruction.htm">game-4(underconstruction)</a></p>
+		  <p>5. <a href="games/underconstruction.htm">game-5(underconstruction)</a></p>
+		  <p>6. <a href="games/underconstruction.htm">game-6(underconstruction)</a></p>
+		  <p>7. <a href="games/underconstruction.htm">game-7(underconstruction)</a></p>
+		  <p>8. <a href="games/underconstruction.htm">game-8(underconstruction)</a></p>
+              
+            	</div>
+
+      </body>
+</html>

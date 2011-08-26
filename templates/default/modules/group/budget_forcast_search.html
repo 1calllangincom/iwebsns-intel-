@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Search Result</title>
+</head>
+<body>
+<a href="modules.php?app=group_budget&group_id={echo:$group_id;/}">Back</a>
+<table><tr><td>搜索结果：</td></tr>{sta:if($kind==1)[exc]}
+
+			<tr> 
+			<td colspan="4" >
+				<table width="100%" border="1" cellpadding="5" cellspacing="0">
+				<tr><td>Forecast ID</td>
+				<td>Spending ID</td>
+				<td>Date</td>
+					<td>Club</td>
+					<td>Forecast Amount</td>
+					
+					<td>Requester</td>
+					<td>WWID</td>
+					<td>Office/Shift</td>
+					<td>Item</td>
+					<td>Description</td>
+					
+					<td>Unit Price</td>
+					<td>Quality</td>
+					<td>Amount</td>
+					<td>Comments</td>
+					<td>Amount Rest</td>
+					<td>Operate/Approver</td>
+					
+					<td>Statue</td>
+					</tr>
+					
+					{sta:foreach($rs as $row)[loop]}
+					<tr>
+					<td>{echo:$row['forcast_id'];/}</td>
+					<td>{echo:$row['budget_id'];/}</td>
+					<td>{echo:$row['yearB'];/}-Q{echo:$row['quarterB'];/}</td>
+						<td>{echo:groupidtoname($row['group_id']);/}</td>
+						<td>{echo:$row['forecast'];/}</td>
+						
+					<td>{echo:useridtoname($row['user_id']);/}</td>
+					<td>{echo:useridtowwid($row['user_id']);/}</td>
+					<td>{echo:$row['kind'];/}</td>
+					<td>{echo:itemidtoname($row['item_id']);/}</td>
+					<td>{echo:$row['description'];/}</td>
+					
+					<td>{echo:$row['unit_price'];/}</td>
+					<td>{echo:$row['quality'];/}</td>
+					<td>{echo:$row['amount'];/}</td>
+					<td>{echo:$row['comments'];/}</td>
+					<td>{sta:if($row['status']!=3)[exc]}{echo:$row['forecast']-$budget_forcast[$row['forcast_id']];/}{end:if/}</td>
+					<td>{sta:if($row['status']==2)[exc]}<form action="do.php?act=group_budget_approve" method="post"><input type="hidden" name="group_id" value="{echo:$row['group_id'];/}"></input><input type="hidden" name="budget_id" value="{echo:$row['budget_id'];/}"></input><input type="submit" value="Approve"></input></form>
+					<form action="do.php?act=group_budget_disapprove" method="post"><input type="hidden" name="group_id" value="{echo:$row['group_id'];/}"></input><input type="hidden" name="budget_id" value="{echo:$row['budget_id'];/}"></input><input type="submit" value="Refuse"></input><textarea name="approver_comments">Reasons for refusal:</textarea></form>
+					{end:if/}
+					{sta:if($row['status']!=2)[exc]}{echo:useridtoname(intval($row['approver']));/}{end:if/}
+					</td>
+					
+					<td>{echo:statustoname($row['status']);/}</td></tr>
+					  {end:foreach/}
+				</table>
+			</td>
+			</tr>
+			{end:if/}
+			{sta:if($kind==2)[exc]}
+			<tr><td>
+			<table border="1" cellpadding="5" cellspacing="0">
+			<tr>
+			<td>
+			Forecast ID</td>
+			<td>Club Name</td>
+			<td>Requester</td>
+			<td>Year</td>
+			<td>Quarter</td>
+			<td>Item</td>
+			<td>Amount</td>
+			<td>Comment</td>
+			<td>Submitted Time</td>
+			<td>Status</td>
+			<td>Operate/Approver</td>
+			</tr>
+			{sta:foreach($rs as $row)[loop]}
+			<tr>
+			<td>{echo:$row['forcast_id'];/}</td>
+			<td>{echo:groupidtoname($row['group_id']);/}</td>
+			<td>{echo:useridtoname($row['user_id']);/}</td>
+			<td>{echo:$row['year'];/}</td>
+			<td>{echo:$row['quarter'];/}</td>
+			<td>{echo:itemidtoname($row['item_id']);/}</td>
+			<td>{echo:$row['amount'];/}</td>
+			<td>{echo:$row['comments'];/}</td>
+			<td>{echo:$row['time'];/}</td>
+			<td>{echo:statustoname($row['status']);/}</td>
+			<td>{sta:if($row['status']==2)[exc]}<form action="do.php?act=group_forcast_approve" method="post"><input type="hidden" name="group_id" value="{echo:$row['group_id'];/}"></input><input type="hidden" name="forcast_id" value="{echo:$row['forcast_id'];/}"></input><input type="submit" value="Approve"></input></form>
+					<form action="do.php?act=group_forcast_disapprove" method="post"><input type="hidden" name="group_id" value="{echo:$row['group_id'];/}"></input><input type="hidden" name="forcast_id" value="{echo:$row['forcast_id'];/}"></input><input type="submit" value="Refuse"></input><textarea name="approver_comments">Reasons for refusal:</textarea></form>
+					{end:if/}
+					{sta:if($row['status']!=2)[exc]}{echo:useridtoname(intval($row['approver']));/}{end:if/}</td>
+			</tr>
+			{end:foreach/}
+			</table></td></tr>{end:if/}</table>
+</body>
+</html>

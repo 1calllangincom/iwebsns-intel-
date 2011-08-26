@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/album
+END
+album_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/album/album_list.php
+END
+photo_update.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/album/photo_update.php
+END
+photo_upload.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/album/photo_upload.php
+END
+photo_ico_select.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/album/photo_ico_select.php
+END
+photo_view.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/album/photo_view.php
+END
+photo_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/album/photo_list.php
+END
+album_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/album/album_edit.php
+END
+album_friend.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/album/album_friend.php
+END

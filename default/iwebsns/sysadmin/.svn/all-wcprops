@@ -1,0 +1,641 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin
+END
+event_type_list.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/event_type_list.action.php
+END
+mood_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/mood_list.php
+END
+tmp_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/tmp_list.php
+END
+manager_sort.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/manager_sort.action.php
+END
+recommend_upd.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/recommend_upd.action.php
+END
+login_out.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/login_out.php
+END
+album_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/album_del.action.php
+END
+member_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/member_list.php
+END
+user_information_edit.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/user_information_edit.action.php
+END
+invite_manage.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/invite_manage.php
+END
+poll_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/poll_del.action.php
+END
+member_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/member_del.action.php
+END
+blog_lock.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/blog_lock.action.php
+END
+user_information_add.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/user_information_add.action.php
+END
+tool_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/tool_list.php
+END
+safe_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/safe_list.php
+END
+report.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/report.php
+END
+event_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/event_list.php
+END
+user_custom_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/user_custom_edit.php
+END
+user_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/user_del.action.php
+END
+group_lock.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/group_lock.action.php
+END
+event_type_detail.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/event_type_detail.action.php
+END
+download_tool.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/download_tool.action.php
+END
+safe_make_md5.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/safe_make_md5.php
+END
+download_file.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/download_file.action.php
+END
+manage_template.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/manage_template.php
+END
+main.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/main.php
+END
+photo_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/photo_list.php
+END
+atool_box.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/atool_box.php
+END
+photo_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/photo_del.action.php
+END
+subject_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/subject_list.php
+END
+basic_set.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/basic_set.php
+END
+ui_restore.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/ui_restore.action.php
+END
+cut_image.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/cut_image.php
+END
+download_tool_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/download_tool_list.php
+END
+subject_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/subject_del.action.php
+END
+update_plugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/update_plugin.php
+END
+database.save.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/database.save.php
+END
+share_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/share_del.action.php
+END
+install_plugin_1.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/install_plugin_1.php
+END
+integral.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/integral.php
+END
+install_plugin_2.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/install_plugin_2.php
+END
+change_tmp.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/change_tmp.php
+END
+check_login.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/check_login.php
+END
+install_plugin_3.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/install_plugin_3.php
+END
+mess_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/mess_del.action.php
+END
+ask_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/ask_list.php
+END
+photo_lock.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/photo_lock.action.php
+END
+blog_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/blog_list.php
+END
+session_check.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/session_check.php
+END
+blog_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/blog_del.action.php
+END
+affair_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/affair_list.php
+END
+pic_cut.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/pic_cut.php
+END
+menu.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/menu.dtd
+END
+safe_process.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/safe_process.action.php
+END
+msgboard_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/msgboard_list.php
+END
+user_info.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/user_info.php
+END
+poll_lock.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/poll_lock.action.php
+END
+ask_type.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/ask_type.action.php
+END
+album_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/album_list.php
+END
+action_comp.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/action_comp.php
+END
+comment_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/comment_list.php
+END
+mood_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/mood_del.action.php
+END
+unload_plugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/unload_plugin.php
+END
+poll_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/poll_list.php
+END
+admin_pw_change.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/admin_pw_change.php
+END
+event_type_detail.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/event_type_detail.php
+END
+recommend_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/recommend_list.php
+END
+includes.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/includes.php
+END
+login.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/login.php
+END
+database.recover.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/database.recover.php
+END
+update_software.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/update_software.action.php
+END
+recommend_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/recommend_del.action.php
+END
+report_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/report_del.action.php
+END
+manage_skin.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/manage_skin.php
+END
+event_type_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/event_type_list.php
+END
+front_end.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/front_end.php
+END
+ask_type.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/ask_type.php
+END
+unload_tool.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/unload_tool.php
+END
+ui_restore.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/ui_restore.php
+END
+manager_sort.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/manager_sort.php
+END
+download_skin_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/download_skin_list.php
+END
+share_lock.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/share_lock.action.php
+END
+group_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/group_list.php
+END
+event_list.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/event_list.action.php
+END
+left.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/left.php
+END
+pluginlist.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/pluginlist.php
+END
+member_lock.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/member_lock.action.php
+END
+recommend_add.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/recommend_add.action.php
+END
+share_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/share_list.php
+END
+safe_iframe.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/safe_iframe.php
+END
+pic_save.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/pic_save.action.php
+END
+user_custom.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/user_custom.php
+END
+menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/menu.xml
+END
+right.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/right.php
+END
+ask_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/ask_del.action.php
+END
+com_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/com_del.action.php
+END
+safe.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/safe.php
+END
+download_tpl_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/download_tpl_list.php
+END
+user_information_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/user_information_del.action.php
+END
+album_lock.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/album_lock.action.php
+END
+manage_tool.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/manage_tool.php
+END
+guest_limit.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/guest_limit.php
+END
+show_ico_cut.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/show_ico_cut.php
+END
+software_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/software_list.php
+END
+affair_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/social_club/!svn/ver/3/default/iwebsns/sysadmin/affair_del.action.php
+END

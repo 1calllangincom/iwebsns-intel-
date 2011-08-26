@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/social_club/!svn/ver/3/plugins
+END
+front_resources.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/social_club/!svn/ver/3/plugins/front_resources.xml
+END
+plugin_layout.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/social_club/!svn/ver/3/plugins/plugin_layout.php
+END
+plugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/social_club/!svn/ver/3/plugins/plugin.php
+END
+ActionUrl.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/social_club/!svn/ver/3/plugins/ActionUrl.php
+END
+Actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/social_club/!svn/ver/3/plugins/Actions.php
+END
+createplugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/social_club/!svn/ver/3/plugins/createplugin.php
+END
+resources.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/social_club/!svn/ver/3/plugins/resources.xml
+END
+Actions.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/social_club/!svn/ver/3/plugins/Actions.dtd
+END
+includes.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/social_club/!svn/ver/3/plugins/includes.php
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/social_club/!svn/ver/3/default/iwebsns/modules/poll
+END
+poll_show_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/default/iwebsns/modules/poll/poll_show_config.php
+END
+poll_mine.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/3/default/iwebsns/modules/poll/poll_mine.php
+END
+poll_send.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/3/default/iwebsns/modules/poll/poll_send.php
+END
+poll_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/3/default/iwebsns/modules/poll/poll_list.php
+END
+poll_show.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/3/default/iwebsns/modules/poll/poll_show.php
+END

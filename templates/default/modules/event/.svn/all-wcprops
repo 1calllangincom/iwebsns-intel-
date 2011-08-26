@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/social_club/!svn/ver/4/templates/default/modules/event
+END
+event_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/templates/default/modules/event/event_list.html
+END
+event_quick.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/social_club/!svn/ver/3/templates/default/modules/event/event_quick.html
+END
+event_list_photo.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/social_club/!svn/ver/11/templates/default/modules/event/event_list_photo.html
+END
+event_mine.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/templates/default/modules/event/event_mine.html
+END
+event_show_photo.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/templates/default/modules/event/event_show_photo.html
+END
+event_info.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/4/templates/default/modules/event/event_info.html
+END
+event_space.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/social_club/!svn/ver/4/templates/default/modules/event/event_space.html
+END
+event_update_photo.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/social_club/!svn/ver/3/templates/default/modules/event/event_update_photo.html
+END
+event_upload_photo.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/social_club/!svn/ver/3/templates/default/modules/event/event_upload_photo.html
+END
+event_invite.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/templates/default/modules/event/event_invite.html
+END
+event_excel.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/social_club/!svn/ver/3/templates/default/modules/event/event_excel.html
+END
+event_search_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/social_club/!svn/ver/3/templates/default/modules/event/event_search_list.html
+END
+event_member_manager.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/social_club/!svn/ver/3/templates/default/modules/event/event_member_manager.html
+END
+event_search.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/templates/default/modules/event/event_search.html
+END
+event_messages.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/social_club/!svn/ver/3/templates/default/modules/event/event_messages.html
+END
+event_member.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/templates/default/modules/event/event_member.html
+END

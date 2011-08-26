@@ -1,0 +1,28 @@
+
+.title {
+	text-align:left;
+	height:30px;
+	background:url(../images/top_line.gif) no-repeat left bottom;
+}
+#about {
+	margin-top:10px;
+
+}
+#rivacy {
+	margin-top:10px;
+}
+.main p,ul {
+	text-align:left;
+	line-height:25px;
+	margin:10px;
+}
+.main p {
+	text-indent:20px;
+}
+li {
+	margin-left:40px;
+}
+b {
+	font-size:14px;
+	color:#4e4e4e;
+}

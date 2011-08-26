@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/group
+END
+group_member_manager.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/group/group_member_manager.html
+END
+group_info_manager.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/group/group_info_manager.html
+END
+search_group.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/group/search_group.html
+END
+group_mine.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/group/group_mine.html
+END
+search_subject.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/group/search_subject.html
+END
+group_sub_show.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/group/group_sub_show.html
+END
+group_hot.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/group/group_hot.html
+END
+group_manager.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/group/group_manager.html
+END
+group_space.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/group/group_space.html
+END
+group_creat.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/group/group_creat.html
+END
+group_select.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/group/group_select.html
+END
+group_subject.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/group/group_subject.html
+END

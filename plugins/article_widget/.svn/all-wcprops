@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/social_club/!svn/ver/3/plugins/article_widget
+END
+plugin_create_tables.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/plugins/article_widget/plugin_create_tables.php
+END
+table_prefix.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/social_club/!svn/ver/3/plugins/article_widget/table_prefix.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/social_club/!svn/ver/3/plugins/article_widget/config.php
+END
+_plugin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/social_club/!svn/ver/3/plugins/article_widget/_plugin.xml
+END
+article_blogCon.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/3/plugins/article_widget/article_blogCon.php
+END
+article_menu.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/social_club/!svn/ver/3/plugins/article_widget/article_menu.php
+END
+digg_action.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/plugins/article_widget/digg_action.php
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/social_club/!svn/ver/4/templates/default/uiparts
+END
+mainheader.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/15/templates/default/uiparts/mainheader.html
+END
+mainleft.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/social_club/!svn/ver/3/templates/default/uiparts/mainleft.html
+END
+guestheader.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/social_club/!svn/ver/11/templates/default/uiparts/guestheader.html
+END
+homeheader.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/15/templates/default/uiparts/homeheader.html
+END
+homeleft.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/social_club/!svn/ver/3/templates/default/uiparts/homeleft.html
+END
+footor.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/social_club/!svn/ver/3/templates/default/uiparts/footor.html
+END

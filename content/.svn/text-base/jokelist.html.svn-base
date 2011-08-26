@@ -1,0 +1,26 @@
+<!-- hi IE,please go to Quirks Mode-->
+<!DOCTYPE html PUBLIC "-//W3C//Dtd XHTML 1.0 Strict//EN" "http://www.w3.org/tr/xhtml1/Dtd/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>story list</title>
+<link rel="stylesheet" type="text/css" href="../images/pages.css" />
+</head>
+<body>
+        	<h1 class="h1A">Joke List</h1>
+            <div class="content cc">
+            <p>1. <a href="joke：雷人语录，郁闷时看了也会咧嘴的.html">雷人语录，郁闷时看了也会咧嘴的</a></p>
+		  <p>2. <a href="underconstruction.htm">article-2</a></p>
+		  <p>3. <a href="underconstruction.htm">article-3</a></p>
+		  <p>4. <a href="underconstruction.htm">article-4</a></p>
+		  <p>5. <a href="underconstruction.htm">article-5</a></p>
+		  <p>6. <a href="underconstruction.htm">article-6</a></p>
+		  <p>7. <a href="underconstruction.htm">article-7</a></p>
+		  <p>8. <a href="underconstruction.htm">article-8</a></p>
+		  。。。
+		  <p><span class="s1">号外..号外...</span>：本版块支持员工投稿（原创、推荐，whatever！），俱乐部成员稿件优先采用哦！稿件投递地址：erwen.chen@intel.com</p>
+              
+            	</div>
+
+      </body>
+</html>

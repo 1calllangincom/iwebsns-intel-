@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/event
+END
+event_mine.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/event/event_mine.php
+END
+event_show_photo.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/event/event_show_photo.php
+END
+event_info.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/event/event_info.php
+END
+event_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/event/event_list.php
+END
+event_space.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/event/event_space.php
+END
+event_update_photo.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/event/event_update_photo.php
+END
+event_upload_photo.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/event/event_upload_photo.php
+END
+event_invite.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/event/event_invite.php
+END
+event_search_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/event/event_search_list.php
+END
+event_member_manager.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/event/event_member_manager.php
+END
+event_list_photo.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/event/event_list_photo.php
+END
+event_search.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/event/event_search.php
+END
+event_member.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/event/event_member.php
+END

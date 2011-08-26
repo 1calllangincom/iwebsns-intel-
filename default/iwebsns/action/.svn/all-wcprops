@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/social_club/!svn/ver/3/default/iwebsns/action
+END
+login_act.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/social_club/!svn/ver/3/default/iwebsns/action/login_act.php
+END
+logout_act.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/social_club/!svn/ver/3/default/iwebsns/action/logout_act.php
+END
+reg_act.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/social_club/!svn/ver/3/default/iwebsns/action/reg_act.php
+END

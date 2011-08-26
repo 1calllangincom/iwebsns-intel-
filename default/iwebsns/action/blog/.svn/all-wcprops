@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/social_club/!svn/ver/3/default/iwebsns/action/blog
+END
+blog_sort_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/social_club/!svn/ver/3/default/iwebsns/action/blog/blog_sort_del.action.php
+END
+blog_sort_change.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/social_club/!svn/ver/3/default/iwebsns/action/blog/blog_sort_change.action.php
+END
+blog_sort_add.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/social_club/!svn/ver/3/default/iwebsns/action/blog/blog_sort_add.action.php
+END
+blog_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/default/iwebsns/action/blog/blog_del.action.php
+END
+blog_edit.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/social_club/!svn/ver/3/default/iwebsns/action/blog/blog_edit.action.php
+END
+blog_add.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/default/iwebsns/action/blog/blog_add.action.php
+END

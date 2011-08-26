@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/social_club/!svn/ver/5/templates/default/modules/group
+END
+group_member_manager.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/social_club/!svn/ver/4/templates/default/modules/group/group_member_manager.html
+END
+group_budget_manager.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/social_club/!svn/ver/11/templates/default/modules/group/group_budget_manager.html
+END
+budget_forcast_search.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/social_club/!svn/ver/11/templates/default/modules/group/budget_forcast_search.html
+END
+search_group.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/templates/default/modules/group/search_group.html
+END
+search_subject.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/social_club/!svn/ver/3/templates/default/modules/group/search_subject.html
+END
+group_manager.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/social_club/!svn/ver/3/templates/default/modules/group/group_manager.html
+END
+group_budget.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/social_club/!svn/ver/15/templates/default/modules/group/group_budget.html
+END
+group_select.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/templates/default/modules/group/group_select.html
+END
+group_info_manager.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/social_club/!svn/ver/6/templates/default/modules/group/group_info_manager.html
+END
+group_mine.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/9/templates/default/modules/group/group_mine.html
+END
+group_sub_show.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/social_club/!svn/ver/3/templates/default/modules/group/group_sub_show.html
+END
+group_hot.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/social_club/!svn/ver/3/templates/default/modules/group/group_hot.html
+END
+group_space.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/11/templates/default/modules/group/group_space.html
+END
+group_creat.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/social_club/!svn/ver/3/templates/default/modules/group/group_creat.html
+END
+group_subject.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/social_club/!svn/ver/3/templates/default/modules/group/group_subject.html
+END

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event
+END
+event_approve.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_approve.action.php
+END
+event_del_photo.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_del_photo.action.php
+END
+event_im_photo.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_im_photo.action.php
+END
+event_edit.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_edit.action.php
+END
+event_add.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_add.action.php
+END
+event_edit_apply.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_edit_apply.action.php
+END
+event_revoke.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_revoke.action.php
+END
+event_del_member.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_del_member.action.php
+END
+event_update_photo.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_update_photo.action.php
+END
+event_upload_photo.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_upload_photo.action.php
+END
+event_invite.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_invite.action.php
+END
+event_join.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_join.action.php
+END
+event_follow.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_follow.action.php
+END
+event_drop.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_drop.action.php
+END
+event_follow_cancel.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_follow_cancel.action.php
+END
+event_exit.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_exit.action.php
+END
+event_appoint.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_appoint.action.php
+END
+event_del_req.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/default/iwebsns/action/event/event_del_req.action.php
+END

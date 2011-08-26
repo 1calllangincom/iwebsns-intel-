@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/social_club/!svn/ver/3/action/poll
+END
+poll_add.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/social_club/!svn/ver/3/action/poll/poll_add.action.php
+END
+poll_set_config.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/action/poll/poll_set_config.action.php
+END
+poll_submit.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/social_club/!svn/ver/3/action/poll/poll_submit.action.php
+END

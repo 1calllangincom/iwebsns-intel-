@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/social_club/!svn/ver/3/default/iwebsns/docs
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/social_club/!svn/ver/3/default/iwebsns/docs/version.txt
+END
+iweb_sns.sql
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/social_club/!svn/ver/3/default/iwebsns/docs/iweb_sns.sql
+END
+install.lock
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/social_club/!svn/ver/3/default/iwebsns/docs/install.lock
+END

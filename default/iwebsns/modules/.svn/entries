@@ -1,0 +1,224 @@
+10
+
+dir
+5
+https://cdssiteweb001.ccr.corp.intel.com/svn/social_club/default/iwebsns/modules
+https://cdssiteweb001.ccr.corp.intel.com/svn/social_club
+
+
+
+2011-08-11T07:00:25.039895Z
+3
+wynn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9ad9e305-3716-1d4a-81f1-b98dc2e6ea4a
+
+userapp
+dir
+
+event
+dir
+
+blog
+dir
+
+restore
+dir
+
+start.php
+file
+
+
+
+
+2011-08-18T06:49:57.976442Z
+83906cac073bb4e397c54a7bf24c40e8
+2011-08-11T07:00:25.039895Z
+3
+wynn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11106
+
+invite.php
+file
+
+
+
+
+2011-08-18T06:49:58.020447Z
+52290631236086274ac3ccf63c958930
+2011-08-11T07:00:25.039895Z
+3
+wynn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4607
+
+msgscrip
+dir
+
+guest
+dir
+
+uiparts
+dir
+
+recentaffair
+dir
+
+group
+dir
+
+homestart.php
+file
+
+
+
+
+2011-08-18T06:49:58.070452Z
+7c3bb45e0d884c622f933d7e8bc3b290
+2011-08-11T07:00:25.039895Z
+3
+wynn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10962
+
+msgboard
+dir
+
+mood
+dir
+
+album
+dir
+
+users
+dir
+
+share
+dir
+
+mypals
+dir
+
+poll
+dir
+
+friend
+dir
+
+pubtools
+dir
+
+default.php
+file
+
+
+
+
+2011-08-18T06:49:58.092454Z
+90bb7c7b27a6e4553fd8dbc2e482fcd3
+2011-08-11T07:00:25.039895Z
+3
+wynn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8185
+
+privacy
+dir
+
+ask
+dir
+

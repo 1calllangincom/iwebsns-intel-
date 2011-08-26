@@ -1,0 +1,172 @@
+10
+
+dir
+5
+https://cdssiteweb001.ccr.corp.intel.com/svn/social_club/default/iwebsns/api
+https://cdssiteweb001.ccr.corp.intel.com/svn/social_club
+
+
+
+2011-08-11T07:00:25.039895Z
+3
+wynn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9ad9e305-3716-1d4a-81f1-b98dc2e6ea4a
+
+scrip
+dir
+
+plugins
+dir
+
+event
+dir
+
+Check_MC.php
+file
+
+
+
+
+2011-08-18T06:50:08.530498Z
+b1e9d38270d057d739b65ce7533ace9a
+2011-08-11T07:00:25.039895Z
+3
+wynn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+968
+
+blog
+dir
+
+message
+dir
+
+guest
+dir
+
+group
+dir
+
+base_support.php
+file
+
+
+
+
+2011-08-18T06:50:08.543499Z
+1be224f05a7cb52317325b58ae0c83fa
+2011-08-11T07:00:25.039895Z
+3
+wynn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1538
+
+includes.php
+file
+
+
+
+
+2011-08-18T06:50:08.552500Z
+8b9570271afb44ec269d478b936c3348
+2011-08-11T07:00:25.039895Z
+3
+wynn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+878
+
+msgboard
+dir
+
+mood
+dir
+
+pals
+dir
+
+album
+dir
+
+share
+dir
+
+poll
+dir
+
+user
+dir
+

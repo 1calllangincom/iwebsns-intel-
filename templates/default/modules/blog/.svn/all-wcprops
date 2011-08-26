@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/social_club/!svn/ver/3/templates/default/modules/blog
+END
+blog_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/social_club/!svn/ver/3/templates/default/modules/blog/blog_list.html
+END
+blog_show.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/social_club/!svn/ver/3/templates/default/modules/blog/blog_show.html
+END
+blog_manager_sort.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/templates/default/modules/blog/blog_manager_sort.html
+END
+blog_edit.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/social_club/!svn/ver/3/templates/default/modules/blog/blog_edit.html
+END
+blog_friend.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/templates/default/modules/blog/blog_friend.html
+END

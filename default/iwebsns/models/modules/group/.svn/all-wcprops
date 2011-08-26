@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/group
+END
+group_creat.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/group/group_creat.php
+END
+group_select.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/group/group_select.php
+END
+group_subject.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/group/group_subject.php
+END
+group_member_manager.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/group/group_member_manager.php
+END
+group_info_manager.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/group/group_info_manager.php
+END
+search_group.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/group/search_group.php
+END
+group_mine.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/group/group_mine.php
+END
+search_subject.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/group/search_subject.php
+END
+group_sub_show.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/group/group_sub_show.php
+END
+group_hot.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/group/group_hot.php
+END
+group_manager.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/group/group_manager.php
+END
+group_space.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/social_club/!svn/ver/3/default/iwebsns/models/modules/group/group_space.php
+END

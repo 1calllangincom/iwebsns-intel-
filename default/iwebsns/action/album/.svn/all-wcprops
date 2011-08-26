@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/social_club/!svn/ver/3/default/iwebsns/action/album
+END
+photo_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/default/iwebsns/action/album/photo_del.action.php
+END
+album_creat.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/social_club/!svn/ver/3/default/iwebsns/action/album/album_creat.action.php
+END
+photo_im.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/social_club/!svn/ver/3/default/iwebsns/action/album/photo_im.action.php
+END
+photo_upd.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/default/iwebsns/action/album/photo_upd.action.php
+END
+album_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/default/iwebsns/action/album/album_del.action.php
+END
+album_skin.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/social_club/!svn/ver/3/default/iwebsns/action/album/album_skin.action.php
+END
+photo_upl_flash.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/social_club/!svn/ver/3/default/iwebsns/action/album/photo_upl_flash.action.php
+END
+album_upd.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/default/iwebsns/action/album/album_upd.action.php
+END
+photo_upl.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/default/iwebsns/action/album/photo_upl.action.php
+END

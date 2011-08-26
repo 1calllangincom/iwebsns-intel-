@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/social_club/!svn/ver/3/default/iwebsns/api/scrip
+END
+scrip_send.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/social_club/!svn/ver/3/default/iwebsns/api/scrip/scrip_send.php
+END
+scrip_inbox.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/social_club/!svn/ver/3/default/iwebsns/api/scrip/scrip_inbox.php
+END
+scrip_outbox.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/3/default/iwebsns/api/scrip/scrip_outbox.php
+END
+scrip_notice.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/social_club/!svn/ver/3/default/iwebsns/api/scrip/scrip_notice.php
+END

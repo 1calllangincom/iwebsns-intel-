@@ -1,0 +1,13 @@
+<script type="text/javascript">
+	function set_cookie_lp(lp_str){
+		document.cookie = "lp_name=" + escape(lp_str);
+		window.location.reload();
+	}
+</script>
+<div class="foot">
+	<a href="about/about.html">{echo:lp{pu_about_us};/}</a>
+	<a href="about/privacy.html">{echo:lp{pu_privacy};/}</a>
+	<a href="http://bbs.cd.intel.com/bbs/index.php">Intel Chengdu BBS</a>
+	<a href="mailto:{echo:$adminEmail;/}">{echo:lp{pu_email};/}</a></div>
+<div style="display: none;" class="emBg" id="face_list_menu"></div>
+<div id="append_parent"></div>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/share
+END
+share_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/share/share_list.html
+END
+share_show.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/share/share_show.html
+END
+share_friend.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/social_club/!svn/ver/3/default/iwebsns/templates/default/modules/share/share_friend.html
+END

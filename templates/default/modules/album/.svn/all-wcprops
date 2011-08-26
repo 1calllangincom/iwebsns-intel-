@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/social_club/!svn/ver/3/templates/default/modules/album
+END
+photo_upload.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/templates/default/modules/album/photo_upload.html
+END
+photo_ico_select.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/social_club/!svn/ver/3/templates/default/modules/album/photo_ico_select.html
+END
+photo_view.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/templates/default/modules/album/photo_view.html
+END
+photo_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/templates/default/modules/album/photo_list.html
+END
+album_edit.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/templates/default/modules/album/album_edit.html
+END
+album_friend.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/templates/default/modules/album/album_friend.html
+END
+album_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/social_club/!svn/ver/3/templates/default/modules/album/album_list.html
+END
+photo_update.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/social_club/!svn/ver/3/templates/default/modules/album/photo_update.html
+END

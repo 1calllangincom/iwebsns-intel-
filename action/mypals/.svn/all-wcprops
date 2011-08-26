@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/social_club/!svn/ver/3/action/mypals
+END
+confirm_other.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/action/mypals/confirm_other.action.php
+END
+pals_sort_add.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/action/mypals/pals_sort_add.action.php
+END
+refuse_req.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/social_club/!svn/ver/3/action/mypals/refuse_req.action.php
+END
+pals_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/social_club/!svn/ver/3/action/mypals/pals_del.action.php
+END
+pals_change.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/social_club/!svn/ver/3/action/mypals/pals_change.action.php
+END
+pals_add.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/social_club/!svn/ver/3/action/mypals/pals_add.action.php
+END
+confirm_both.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/social_club/!svn/ver/3/action/mypals/confirm_both.action.php
+END
+pals_sort_del.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/action/mypals/pals_sort_del.action.php
+END
+del_req.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/social_club/!svn/ver/3/action/mypals/del_req.action.php
+END
+pals_sort_change.action.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/social_club/!svn/ver/3/action/mypals/pals_sort_change.action.php
+END

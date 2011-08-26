@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>iwebsns平台cms插件-聚易技术团队首款多功能信息聚合模块</title>
+<meta name="Description" content="插件，cms" />
+<meta name="Keywords" content="iwebsns,cms,jooyea" />
+<meta name="author" content="jooyea" />
+<meta name="robots" content="all" />
+<link rel="stylesheet" type="text/css" href="theme/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="theme/css/layout.css"/>
+<script type='text/javascript' src='../servtools/ajax_client/ajax.js'></script>
+<script src="theme/js/slide.js" type="text/javascript"></script>
+</head>
+
+<body>
+<!--head_start!-->
+<!--顶部login_bar开始-->
+	<div class="login_bar">
+		<div class="login_tools">
+			<a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://localhost/iweb/iwebsns/')" href="javascript:">·设为主页</a>
+			<a href="http://tech.jooyea.com/php_web/contact/" target="_blank" >·联系我们</a>
+			<a href="http://tech.jooyea.com/aboutus.php" target="_blank" >·关于我们</a>
+			<a href="http://localhost/iweb/iwebsns/">·返回SNS</a>
+		</div>
+	</div>
+<!--顶部login_bar结束-->
+
+<!--header头部LOGO开始-->
+	<div class="header">
+		<span class="top_banner">
+		</span>
+		<a href="#"><img src="theme/img/logo.gif" alt="iWebCMS产品展示模块" /></a>
+		<div class="clear"></div>
+	</div>
+<!--header头部LOGO结束-->
+
+<!--导航开始-->
+	<div class="nav_box">
+		<div class="nav_de">
+			<ul class="nav">
+				<li><a href="index.php?app=view&index">首页</a></li>
+							</ul>
+			<span class="search">
+				<form action='index.php?app=view&list&mod=search' method='post'>
+				<input type="text" id="text" name="search"  />
+				<input type="submit" value="搜&nbsp;&nbsp;索" id="search_btn"  />
+				</form>
+			</span>
+		</div>
+	</div>
+    </div>
+<!--导航结束-->
+	
+<!--TAG标签开始-->
+	<div class="tag_box">
+		<ul>
+			<li><img src="theme/img/tag_ico.gif" id="tag_ico"  /></li>
+			<li><b>热门标签:</b></li>
+					</ul>
+		<div class="clear"></div>
+	</div>
+<!--TAG标签结束--><!--head_end!-->
+
+<div class="main_body">
+	<div class="main_left">
+		<div class="slide_container" id="idTransformView" style="width:330px; margin-right:13px; float:left;">
+			  <ul class="slider" id="idSlider">
+																<li><a href="#"><img src="theme/img/def.jpg" alt="聚易" /></a></li>
+							 </ul>
+			 <ul class="slide_num" id="idNum">
+				 				 <li>1</li>
+				 			 </ul>
+		</div>
+	  	<script type="text/javascript">
+			window.onload=slide(280);
+		</script>
+			<!--首页头条开始-->
+		<div class="top_list" style=" width:335px; overflow:hidden; float:left;">
+			<div class="cont_title" id="rec">
+				<span><a href="index.php?app=view&list&mod=recom">更多..</a></span>
+				今日推荐
+			</div>
+									<!--首页头条结束-->
+     </div>
+     <div class="clear"></div>
+     </div>
+
+		<div class="main_right">
+			<!--最新文章开始-->
+			<div class="cont">
+				<div class="cont_title">
+				<span><a href="index.php?app=view&list&mod=new">更多..</a></span>
+				最新文章
+				</div>
+				<div class="cont_body" id="new_log">
+					<ul>
+											</ul>
+					<!--广告!-->
+					<a href="#"><img src="theme/img/banner_03.gif" width="235px" /></a>
+				</div>
+			</div>
+			<!--最新文章结束-->
+		</div>
+
+		<div class="clear"></div><!--清除幻灯片、首页头条、最新文章的浮动-->
+
+		</div>
+
+
+	<!--通栏广告 开始-->
+	<div class="main_body">
+		<a href="#"><img src="theme/img/bannera01.gif" width="960px"  height="90px" /></a>
+	</div>
+	<!--通栏广告 结束-->
+
+	<div class="main_body">
+    <div class="main_left" style="width:700px; float:left;">
+
+		        </div>
+
+	<div class="main_right" style="width:260px;float:right;">
+
+		<div class="cont">
+			<div class="cont_title">
+				<span><a href="index.php?app=view&list&mod=recom">更多..</a></span>
+				推荐文章
+			</div>
+			<div class="cont_body news">
+				<ul>
+									</ul>
+			</div>
+		</div>
+
+		<div class="cont">
+			<div class="cont_title">
+				最新评论
+			</div>
+			<div class="cont_body news">
+				<ul>
+									</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="clear"></div>
+
+	</div>
+
+	<script type='text/javascript' src='../servtools/ajax_client/auto_ajax.js'></script>
+
+<!--head_start!-->
+<!--页脚开始-->
+	<div class="footer">
+		聚易开放式技术实验室(Jooyea Open Technology Lab) 电话：86-531-82506989<br/>
+		Copyright©2009 www.Jooyea.net   京ICP备09092256号 　
+	</div>
+<!--页脚结束!-->
+<!--head_end!-->
+
+</body>
+</html>

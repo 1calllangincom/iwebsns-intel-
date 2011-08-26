@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/social_club/!svn/ver/4/modules/event
+END
+event_mine.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/social_club/!svn/ver/3/modules/event/event_mine.php
+END
+event_show_photo.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/social_club/!svn/ver/3/modules/event/event_show_photo.php
+END
+event_info.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/social_club/!svn/ver/4/modules/event/event_info.php
+END
+event_space.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/social_club/!svn/ver/4/modules/event/event_space.php
+END
+event_update_photo.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/social_club/!svn/ver/3/modules/event/event_update_photo.php
+END
+event_upload_photo.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/social_club/!svn/ver/3/modules/event/event_upload_photo.php
+END
+event_invite.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/social_club/!svn/ver/3/modules/event/event_invite.php
+END
+event_excel.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/social_club/!svn/ver/3/modules/event/event_excel.php
+END
+event_search_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/social_club/!svn/ver/3/modules/event/event_search_list.php
+END
+event_member_manager.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/social_club/!svn/ver/3/modules/event/event_member_manager.php
+END
+event_search.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/social_club/!svn/ver/3/modules/event/event_search.php
+END
+event_member.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/social_club/!svn/ver/3/modules/event/event_member.php
+END
+event_messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/social_club/!svn/ver/3/modules/event/event_messages.php
+END
+event_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/social_club/!svn/ver/3/modules/event/event_list.php
+END
+event_quick.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/social_club/!svn/ver/3/modules/event/event_quick.php
+END
+event_list_photo.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/social_club/!svn/ver/11/modules/event/event_list_photo.php
+END

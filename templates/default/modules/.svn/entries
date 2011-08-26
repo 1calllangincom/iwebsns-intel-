@@ -1,0 +1,233 @@
+10
+
+dir
+5
+https://cdssiteweb001.ccr.corp.intel.com/svn/social_club/templates/default/modules
+https://cdssiteweb001.ccr.corp.intel.com/svn/social_club
+
+
+
+2011-08-17T04:19:11.202351Z
+5
+wynn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9ad9e305-3716-1d4a-81f1-b98dc2e6ea4a
+
+userapp
+dir
+
+event
+dir
+
+blog
+dir
+
+restore
+dir
+
+msgscrip
+dir
+
+guest
+dir
+
+uiparts
+dir
+
+default.html
+file
+
+
+
+
+2011-08-18T06:51:29.749619Z
+2fb3f0b9793e0ca9d6bf9831ab65bef3
+2011-08-11T07:00:25.039895Z
+3
+wynn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6422
+
+recentaffair
+dir
+
+group
+dir
+
+msgboard
+dir
+
+mood
+dir
+
+album
+dir
+
+square
+dir
+
+start.html
+file
+
+
+
+
+2011-08-18T06:51:29.770621Z
+6ab7d8d90fa0e4b35c8e4bd49f4631f3
+2011-08-17T03:38:06.874667Z
+4
+wynn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8900
+
+users
+dir
+
+invite.html
+file
+
+
+
+
+2011-08-18T06:51:29.792623Z
+39088fefb0778a5ae5fcc9266adb4bd4
+2011-08-11T07:00:25.039895Z
+3
+wynn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1963
+
+share
+dir
+
+mypals
+dir
+
+poll
+dir
+
+friend
+dir
+
+pubtools
+dir
+
+homestart.html
+file
+
+
+
+
+2011-08-18T06:51:29.804624Z
+461516cf3aa3bdf53232a317d0115f97
+2011-08-11T07:00:25.039895Z
+3
+wynn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7478
+
+about
+dir
+
+helloworld
+dir
+
+privacy
+dir
+
+ask
+dir
+

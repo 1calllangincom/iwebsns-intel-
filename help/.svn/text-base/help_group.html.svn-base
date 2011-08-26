@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>俱乐部 - 帮助中心 - Intel Social Club</title>
+<link rel="stylesheet" href="../skin/default/jooyea/css/layout.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<div class="container">
+
+<form id="help_group" name="help_group" method="post" action="">
+<div class="head">
+<h1><a href="../index.php"><img alt="jooyea" src="../skin/default/jooyea/images/snslogo.gif"></a></h1>
+</div>
+<div class="clear"></div>
+<div class="top_bg">
+	<div class="nav">
+	  <span class="left">
+	    <a href="../index.php">首页</a>
+	    <a href="../index.php?tg=search_pals_list&online=1">看谁在线</a>
+	    <a href="help.html">帮助</a>
+		</span>
+	</div>
+</div>
+<div class="main">
+  <div class="hp_title">
+  <a href="help.html"><img src="images/title.gif" alt="帮助中心" /></a>
+  <hr/>
+  </div>
+</div>
+<div class="main">
+<b>帮助主题索引：</b><a href="#group1">创建俱乐部</a>|<a href="#group2">管理俱乐部</a>|<a href="#group3">俱乐部使用</a>
+<hr/>
+</div>
+
+<div class="main" id="suoyin">
+
+<div class="cont">
+<div class="ctitle"><a name="group1" id="group1"></a>创建俱乐部</div>
+<div class="cont_body">
+<a href="#1">1.如何快速找到超人气俱乐部或我感兴趣的俱乐部？</a><br/>
+<a href="#2">2.俱乐部的自由开放程度有几种？</a>
+</div>
+</div>
+
+<div class="cont">
+<div class="ctitle"><a name="group12" id="group2"></a>管理俱乐部</div>
+<div class="cont_body">
+<a href="#3">3.如何删除我创建的俱乐部？</a><br/>
+<a href="#4">4.是否可向我的俱乐部添加多位管理员？</a><br/>
+<a href="#5">5.会员加入俱乐部申请批准程序？</a>
+</div>
+</div>
+
+<div class="cont">
+<div class="ctitle"><a name="group3" id="group3"></a>俱乐部使用</div>
+<div class="cont_body">
+<a href="#6">6.&nbsp;如何加入俱乐部？</a>
+<a href="#7">7.&nbsp;加入俱乐部时，是否会出现在动态中？</a>
+</div>
+</div>
+
+</div>
+
+<div class="main" id="main">
+  <p ><a name="1" id="1"></a><span><a href="#top">返回顶部!</a></span><b>1.如何快速找到超人气俱乐部或我感兴趣的俱乐部？</b></p>
+  <p >您可以使用&#8220;应用&#8221;&gt;&#8220;俱乐部&#8221;&gt;&#8220;热门俱乐部&#8221;功能查看超人气俱乐部，找到后&quot;点击加入&quot;即可；也可以使用搜索功能，按俱乐部名称、俱乐部标签或俱乐部类别来查找兴趣俱乐部。<br />
+      <br />
+    <a name="2" id="2"></a><b>2.俱乐部的自由开放程度有几种？</b><br />
+    按加入俱乐部的方式不同，可以分为三种：自由加入，这种俱乐部管理最松散，任何用户均可以自由加入；验证加入，若要加入该俱乐部，需要通过俱乐部管理员的验证才可以；拒绝加入，这种俱乐部拒绝其他用户的加入。三种俱乐部用户均可以进入俱乐部空间进行查看。<br />
+  </p>
+  <p ><a name="3" id="3"></a><b>3.如何删除我创建的俱乐部？</b><br />
+    很抱歉，暂时未提供删除俱乐部的功能。<br />
+    <br />
+    <a name="4" id="4"></a><b>4.是否可向我的俱乐部添加多位管理员？</b><br />
+    可以。作为俱乐部的创始人，你可以将俱乐部中任何会员的身份设为俱乐部管理员。点击&#8220;俱乐部管理&#8221;-&gt;&#8220;组员管理&#8221;，在相应的用户名后点击&#8220;设置管理员&#8221;即可。<br />
+    <br />
+    <a name="5" id="5"></a><b>5.会员加入俱乐部申请批准程序？</b><br />
+    如果您的俱乐部设置为&#8220;验证加入&#8221;，那么作为俱乐部的创始人或管理员，等你下一次进入该俱乐部时，页面右上角会提示有多少人欲申请加入该俱乐部。点击提示链接进行&#8220;会员审核&#8221;，点选&quot;同意&quot;或&#8220;删除&#8221;即可。<br />
+  </p>
+  <p ><a name="6" id="6"></a><b>6.如何加入俱乐部？</b><br />
+    登录后点击&#8220;应用&#8221;&gt;&#8220;俱乐部&#8221;&gt;&#8220;热门俱乐部&#8221;页面，浏览俱乐部列表或者通过搜索俱乐部找到感兴趣的俱乐部后，点击&#8220;加入&#8221;，若该俱乐部为自由加入，那么您将立即成为该俱乐部成员，若该俱乐部设置为验证加入，那么系统会提示已发出申请，待俱乐部管理员同意后，您将成为该俱乐部成员。<br />
+    <br />
+    <a name="7" id="7"></a><b>7.加入俱乐部时，是否会出现在动态中？</b><br />
+    <span><a href="#top">返回顶部!</a></span>用户加入了俱乐部，会显示在该用户的新鲜事当中。</p>
+</div>
+</form>
+<div class="foot">
+	<a href="about.html">关于我们</a>
+	<a href="privacy.html">隐私安全</a>	
+	<a href="http://bbs.cd.intel.com/bbs/index.php">Intel Chengdu BBS</a>
+	<a href="mailto:">联系邮件</a></div>
+<div style="display: none;" class="emBg" id="face_list_menu"></div>
+<div id="append_parent"></div><SCRIPT language=JavaScript src="servtools/ajax_client/auto_ajax.js"></SCRIPT>
+</div>
+</body>
+</html>
+
